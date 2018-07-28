@@ -48,7 +48,7 @@ export default class MainApp extends Component {
             Witam serdecznie!<br />
             Oto strona internetowa z przykładowym zastosowaniem reduxa. 
             A przynajmniej kiedyś tym właśnie się stanie. Na tę chwilę ta strona to śmieć. <br />
-            {/* <Counter /> */}
+            <Counter />
           </div>
         </div>
         <div>
@@ -60,10 +60,10 @@ export default class MainApp extends Component {
           <Filter />
           </div>
           <div id="nieWiemCo" style={{ backgroundColor: this.state.nieWiemCoColor }}>
-            {/* <Forms backColor={this.ChangeParentStyle} /> */}
+            <Forms backColor={this.ChangeParentStyle} />
           </div>
           <div id="redux">
-            {/* <SeedPickerContainer /> */}
+            <SeedPickerContainer />
           </div>
         </div>
       </div>
